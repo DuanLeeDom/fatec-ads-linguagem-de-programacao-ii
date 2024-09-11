@@ -7,7 +7,7 @@ public class Main {
         Random random = new Random();
 
         int numeroSorteado = random.nextInt(10);
-        int contador = 1, n = 0;
+        int contador = 1, n = 0;3
 
         System.out.println("---[ TENTE ADIVINHAR QUAL NÚMERO É (1-5) ]---");
         while (n != numeroSorteado && contador <= 4) {
